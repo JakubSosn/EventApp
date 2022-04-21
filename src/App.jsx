@@ -3,15 +3,16 @@ import Footer from './footer/Footer';
 import Header from './header/Header';
 import NavBar from './navBar/NavBar';
 
-
-import './App.scss';
+import './App.css'
 
 const App = () => {
   return (  
     <>
       <Header />
-      <NavBar />
-      <Content />
+        <div className='content-wrapper'>
+          <NavBar />
+          <Content />
+        </div>
       <Footer />
     </>
   );

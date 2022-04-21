@@ -1,0 +1,10 @@
+.nav {
+  background-color: lightsalmon;
+
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
