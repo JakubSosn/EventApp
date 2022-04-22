@@ -1,4 +1,4 @@
-import Aside from "../article/Aside";
+import Aside from "../Aside";
 import SectionMiddle from "../article/SectionMiddle";
 import SectionTop from "../article/SectionTop";
 

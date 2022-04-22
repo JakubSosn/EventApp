@@ -1,6 +1,9 @@
+import styles from './Home.module.css'
+
 const Home = () => {
   return (  
-    <h1>Strona startowa tej wspaniałej Apki</h1>
+      <div className={styles.image}>
+      </div>
   );
 }
  

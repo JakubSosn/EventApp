@@ -1,0 +1,8 @@
+.wrapperAside {
+  width: 240px;
+  background-color: rgb(152, 99, 154);
+  font-size: 20px;
+  color: white;
+  flex-wrap: wrap;
+  padding: 10px;
+}

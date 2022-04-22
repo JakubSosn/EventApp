@@ -1,9 +1,11 @@
 .footer {
   height: 60px;
+  display: flex;
   background-color: lightskyblue;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   font-size: 24px;
-  text-align: center;
 }

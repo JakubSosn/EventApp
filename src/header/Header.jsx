@@ -3,7 +3,7 @@
   const Header = () => {
     return (  
       <header className={styles.header}>
-        <div className={styles.logo}></div>
+        <div className={styles.logo}>EventApp</div>
         <h1 className={styles.title}>To jest Header przyszłej strony z mojej głowy</h1>
 
       </header>
