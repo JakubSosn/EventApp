@@ -14,7 +14,7 @@ import UserContext from '../UserContext';
     return (  
       <header className={styles.header}>
         <div className={styles.logo}>EventApp</div>
-        <h1 className={styles.title}>Organizacja spotkania jeszcze nie była taka prosta...</h1>
+        <h1 className={styles.title}>Organizacja spotkań jeszcze nie była taka prosta...</h1>
         <div className={styles.user}>{isLoggedIn}</div>
       </header>
     );

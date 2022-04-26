@@ -4,7 +4,7 @@ const Aside = () => {
   return (  
     <aside className={styles.wrapperAside}>
       <div>
-        <p>Boczne menu poświęcone sondażom i głosowaniom</p>
+        <p>Boczne menu poświęcone takim działaniom jak: sondaż, głosowanie, propozycje.</p>
       </div>
     </aside>
   );

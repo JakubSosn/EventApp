@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import Event from "../components/Event";
 import Friends from "../components/Friends";
@@ -18,6 +18,7 @@ const Content = () => {
             <Route path='/profil' element={<Profil />} />;
             <Route path='/friends' element={<Friends />} />;
             <Route path='/message' element={<Message />} />;
+            <Route path='*' element={<Navigate to='/' replace />} />;
         </Routes> 
         </div>
     </main>
