@@ -7,4 +7,5 @@ Od siebie dokładam React'a.
 Aktualnie pracujące osoby nad projektem:
 
 Anna P. - JavaScript
+
 Jakub S. - React
