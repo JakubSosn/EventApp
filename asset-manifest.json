@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/EventApp/static/css/main.74dfca1f.css",
-    "main.js": "/EventApp/static/js/main.b0029543.js",
+    "main.css": "/EventApp/static/css/main.d1205ee5.css",
+    "main.js": "/EventApp/static/js/main.567ad96d.js",
     "static/media/partytime.jpg": "/EventApp/static/media/partytime.9ec2a44c28e5ab249927.jpg",
     "index.html": "/EventApp/index.html",
-    "main.74dfca1f.css.map": "/EventApp/static/css/main.74dfca1f.css.map",
-    "main.b0029543.js.map": "/EventApp/static/js/main.b0029543.js.map"
+    "main.d1205ee5.css.map": "/EventApp/static/css/main.d1205ee5.css.map",
+    "main.567ad96d.js.map": "/EventApp/static/js/main.567ad96d.js.map"
   },
   "entrypoints": [
-    "static/css/main.74dfca1f.css",
-    "static/js/main.b0029543.js"
+    "static/css/main.d1205ee5.css",
+    "static/js/main.567ad96d.js"
   ]
 }
