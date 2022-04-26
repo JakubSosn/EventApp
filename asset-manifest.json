@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/EventApp/static/css/main.74dfca1f.css",
+    "main.js": "/EventApp/static/js/main.4ff6794c.js",
+    "static/media/partytime.jpg": "/EventApp/static/media/partytime.9ec2a44c28e5ab249927.jpg",
+    "index.html": "/EventApp/index.html",
+    "main.74dfca1f.css.map": "/EventApp/static/css/main.74dfca1f.css.map",
+    "main.4ff6794c.js.map": "/EventApp/static/js/main.4ff6794c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74dfca1f.css",
+    "static/js/main.4ff6794c.js"
+  ]
+}
