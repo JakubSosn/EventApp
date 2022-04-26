@@ -1,4 +1,4 @@
-import Aside from "../Aside";
+
 import SectionMiddle from "../article/SectionMiddle";
 import SectionTop from "../article/SectionTop";
 
@@ -7,7 +7,6 @@ const Event = () => {
     <>
       <SectionTop />
       <SectionMiddle />
-      <Aside />
     </>
   );
 }
