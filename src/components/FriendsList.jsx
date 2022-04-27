@@ -9,9 +9,9 @@ const FriendsList = ({listOfFriends}) => {
     </div>
   ))
   return (  
-    <div>
+    <>
       {friend}
-    </div>
+    </>
   );
 }
  

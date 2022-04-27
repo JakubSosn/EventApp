@@ -10,7 +10,7 @@ const Friends = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API = 'https://randomuser.me/api/?results=3';
+  const API = 'https://randomuser.me/api/?results=9';
 
   const getRandomUsers = () => {
   
@@ -40,11 +40,9 @@ const Friends = () => {
   return (  
     <div className={styles.container}>
       <h1>Osoby dodane przez Ciebie jako znajomi</h1>
-      <div>
-        <ul>
+        <ul className={styles.ulFriends}>
           {listOfFriends && <FriendsList listOfFriends={listOfFriends} />}
         </ul>
-      </div>
       <button onClick={getRandomUsers}>Osoby, które możesz znać</button>
     </div>
 
