@@ -5,18 +5,19 @@ import UserContext from "../UserContext";
 
 const IsNotLogged = () => {
   const [login, setLogin] = useState('');
-  const [password, setPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
 
-  const { setUser } = useContext(UserContext);
+  const { setUser, setPassword } = useContext(UserContext);
 
   const handleOnChangeLogin = ({ target: { value } }) => setLogin(value);
-  const handleOnChangePassword = ({ target: { value } }) => setPassword(value);
+  const handleOnChangePassword = ({ target: { value } }) => setNewPassword(value);
 
   const handleOnSubmit = (event) => {
     event.preventDefault();
     setUser(login);
+    setPassword(newPassword);
     setLogin('');
-    setPassword('')
+    setNewPassword('')
   }
 
   return (  
@@ -30,7 +31,7 @@ const IsNotLogged = () => {
       <div className={styles.row}>
         <label>
           Podaj swóje hasło:
-          <input type='password' onChange={handleOnChangePassword} value={password}/>
+          <input type='password' onChange={handleOnChangePassword} value={newPassword}/>
         </label>
       </div>
       <div className={styles.row}>

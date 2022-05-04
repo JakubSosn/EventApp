@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 
 import FriendsList from "./FriendsList";
+import UserContext from '../UserContext';
 
 import styles from './Friends.module.css'
 
@@ -9,6 +10,8 @@ const Friends = () => {
   const [listOfFriends, setlistOfFriends] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  const { user } = useContext(UserContext);
 
   const API = 'https://randomuser.me/api/?results=9';
 
@@ -37,6 +40,9 @@ const Friends = () => {
   }
 
 
+  if(!user) {
+    return <h1 className={styles.header}>Zaloguj się aby zobaczyć znajomych</h1>
+  } else {
   return (  
     <div className={styles.container}>
       <h1>Osoby dodane przez Ciebie jako znajomi</h1>
@@ -47,6 +53,7 @@ const Friends = () => {
     </div>
 
   );
+  }
 }
  
 export default Friends;

@@ -12,6 +12,10 @@
 margin-top: 20px;
 }
 
+.header {
+  margin-top: 50px;
+}
+
 .ulFriends {
   display: flex;
   flex-wrap: wrap;
